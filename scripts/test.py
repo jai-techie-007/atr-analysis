@@ -28,3 +28,4 @@ average_true_range = df['ATR_14'].iloc[-1]
 average_true_range, top_10_with_trend
 print(average_true_range)
 print(top_10_with_trend)
+print("Newly added line at Aug 31 18:24")
