@@ -26,4 +26,5 @@ top_10_with_trend = df.loc[top_10_ranges.index, ['DATE', 'TR', 'Trend']]
 # Show results
 average_true_range = df['ATR_14'].iloc[-1]
 average_true_range, top_10_with_trend
-print(average_true_range, top_10_with_trend)
+print(average_true_range)
+print(top_10_with_trend)
